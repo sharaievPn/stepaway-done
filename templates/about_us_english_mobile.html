@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" type="image/png" href="https://i.ibb.co/xYsVqhf/logo.png"/>
+  <meta charset="UTF-8">
+  <!-- Підключення Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+      #image{
+        position: absolute;
+        display: none;
+        height: 100%;
+        width: 100%;
+      }
+      @media screen and (orientation: landscape){
+        .main{
+          display: none;
+        }
+        #image{
+          display: block;
+        }
+      }
+    body {
+      overflow: hidden;
+      background-color: #03c191;
+      font-family: Arial;
+    }
+    #logo {
+      display: block;
+      margin: 25 auto;
+      width: 25%;
+    }
+    #container {
+      width: 90%;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 5px solid #00a97e;
+      border-radius: 40px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+    h1 {
+      font-size: 36px;
+      color: #333;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #666;
+    }
+    a {
+      color: #0066cc;
+    }
+  </style>
+  <script>
+    function moveToMainPage(){
+      window.location.replace('/en')
+    }
+  </script>
+</head>
+<img id="image" src="https://i.ibb.co/T8TjLxK/sValK.png">
+<div class="main">
+    <body>
+    <!-- Верхній блок з логотипом -->
+    <div id="header">
+      <img onclick="moveToMainPage()" id="logo" src="https://i.ibb.co/RykHJVm/logo.png" alt="Логотип">
+    </div>
+    <!-- Основний вміст сторінки -->
+    <div id="container" class="container">
+      <p class="lead">Welcome to our page!</p>
+      <p class="lead">The goal of our project is to ensure the safety of citizens in critical situations by finding the nearest shelters, such as hospitals, police stations and indestructibility points. We have collected a large database with information about these institutions, including their location, contact information, and the services they provide.Our system works quickly and efficiently, helping you find the nearest shelters in case of danger. In addition, we are constantly updating our database to ensure that the information is accurate and up-to-date. We strive to make our project accessible to as many people as possible to help ensure the safety and protection of the community in critical situations.With us, you can be sure that you will find the closest and most effective shelters for yourself and your loved ones in case of danger. Our mission is to ensure the safety and security of the community and we do our best to achieve this.</p>
+      <p class="lead">We will be glad if it becomes useful for you!</p>
+    </div>
+</div>
+
+<!-- Підключення Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNVeGXd" crossorigin="anonymous"></script>
+</body>
+</html>

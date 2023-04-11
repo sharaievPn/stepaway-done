@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/png" href="https://i.ibb.co/xYsVqhf/logo.png"/>
+  <!-- Підключення Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+  #image{
+      position: absolute;
+      display: none;
+      height: 100%;
+      width: 100%;
+    }
+    @media screen and (orientation: landscape){
+      .main{
+        display: none;
+      }
+      #image{
+        display: block;
+      }
+    }
+    body {
+      overflow: hidden;
+      background-color: #03c191;
+      font-family: Arial;
+    }
+    #logo {
+      display: block;
+      margin: 25 auto;
+      width: 25%;
+    }
+    #container {
+      width: 90%;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 5px solid #00a97e;
+      border-radius: 40px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+    h1 {
+      font-size: 36px;
+      color: #333;
+      margin-top: 0;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #666;
+    }
+    a {
+      color: #0066cc;
+    }
+  </style>
+  <script>
+    function moveToMainPage(){
+      window.location.replace('/en')
+    }
+  </script>
+</head>
+<body>
+<!-- Верхній блок з логотипом -->
+<img id="image" src="https://i.ibb.co/T8TjLxK/sValK.png">
+<div class="main">
+  <div id="header">
+    <img onclick="moveToMainPage()" id="logo" src="https://i.ibb.co/RykHJVm/logo.png" alt="Логотип">
+  </div>
+  <div id="container" class="container">
+    <p class="lead">1. Language selection: The user has the right to select the preferred language on the home page.</p>
+    <p class="lead">2. Geolocation: Before using the map, the user must agree to the use of geolocation. The user can change this at any time in the settings of their device.</p>
+    <p class="lead">3. Map content: The map contains a variety of objects, including various locations, infrastructure, and more. The user can choose which types of objects they want to view on the map.</p>
+    <p class="lead">4. Navigation: To navigate, the user can use the zoom and move buttons to move around the map. The user can also use the map search to find a specific object.</p>
+    <p class="lead">5. Symbols: The navigation bar contains symbols for each type of object on the map. The user can use these icons to show or hide specific types of objects on the map.</p>
+    <p class="lead">6. Information about objects: The user can click on any label on the map to view detailed information about the corresponding object. If the user clicks on their own label, they will receive information about their current location.</p>
+    <p class="lead">7. Terms of use: The user has the right to familiarize himself with the rules of use of the project by clicking on the corresponding button in the navigation bar.</p>
+    <p class="lead">8. About us: The user has the right to learn more about the project by clicking on the corresponding "About Us" button in the navigation bar. On this page, the user can learn more about the team behind the project, its purpose and goals.</p>
+    <p class="lead">9. Prohibition of use: The user is not allowed to use this project for illegal purposes, or to create, transmit or store any illegal material.</p>
+    <p class="lead">10. Confidentiality: We respect the privacy of users and ensure that any information we receive from users will be kept confidential and will not be shared with third parties without the users' permission.</p>
+    <p class="lead">11. Liability: We are not responsible for any errors, incorrect information, failures or unavailability of the project resulting from causes beyond our control.</p>
+  </div>
+</div>
+<!-- Підключення Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNVeGXd" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
