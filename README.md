@@ -11,8 +11,9 @@
 ![image](https://user-images.githubusercontent.com/116553132/231380128-6ba57ff4-4c9f-4776-aead-f07bd5f71bcf.png)
 ![image](https://user-images.githubusercontent.com/116553132/231380189-e6cdaa2d-dc16-4e86-b9b4-c78362d238e4.png)
 
+app.py
+Основне середовище нашого веб застосунку. Cкладається з великої кількості шляхів.Тут описана англійсбка та українська взаємодія на сайті. Технології, які ми використовували: flask, flask session. Обробляє всі скрипти.
 ![image](https://user-images.githubusercontent.com/116553132/231380467-9fab9add-c54d-40b2-9302-89328ec87347.png)
 ![image](https://user-images.githubusercontent.com/116553132/231380516-a6e55df2-33ba-4599-b92b-a3b4a62ebd83.png)
 
-app.py
-Основне середовище нашого веб застосунку. Cкладається з великої кількості шляхів.Тут описана англійсбка та українська взаємодія на сайті. Технології, які ми використовували: flask, flask session. Обробляє всі скрипти.
+
