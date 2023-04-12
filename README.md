@@ -14,3 +14,5 @@
 ![image](https://user-images.githubusercontent.com/116553132/231380467-9fab9add-c54d-40b2-9302-89328ec87347.png)
 ![image](https://user-images.githubusercontent.com/116553132/231380516-a6e55df2-33ba-4599-b92b-a3b4a62ebd83.png)
 
+app.py
+Основне середовище нашого веб застосунку. Cкладається з великої кількості шляхів.Тут описана англійсбка та українська взаємодія на сайті. Технології, які ми використовували: flask, flask session. Обробляє всі скрипти.
